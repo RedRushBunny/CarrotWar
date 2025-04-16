@@ -7,7 +7,7 @@ let direction = { x: 0, y: 0 }; // Направление движения
 let isFiring = false; // Состояние стрельбы
 
 // WebSocket connection
-const socket = new WebSocket("ws://localhost:8080");
+const socket = new WebSocket("ws://79.139.210.23:8080");
 
 socket.addEventListener("open", () => {
     console.log("Connected to server");
